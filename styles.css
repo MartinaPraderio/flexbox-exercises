@@ -60,7 +60,7 @@ body {
   padding: 20px;
 }
 
-.child-3 {
+.card-3 .child-3 {
   margin-top: auto;
 }
 /*  ---- end exercise 3 ----  */
@@ -71,12 +71,15 @@ body {
 }
 
 .card-4 {
+  display: flex;
   border: 1px solid #4d7298;
   border-radius: 10px;
   width: 500px;
 }
 
 .card-text-wrapper {
+  display: flex;
+  flex-direction: column;
   padding: 20px;
 }
 
@@ -90,6 +93,7 @@ body {
   padding: 10px;
   font-size: 16px;
   border-radius: 10px;
+  margin-top: auto;
 }
 /*  ---- end exercise 4 ----  */
 
