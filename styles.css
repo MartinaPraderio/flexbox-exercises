@@ -51,6 +51,8 @@ body {
 
 /*  ---- start exercise 3 ----  */
 .card-3 {
+  display: flex;
+  flex-direction: column;
   border: 1px solid #4d7298;
   border-radius: 10px;
   height: 150px;
@@ -58,6 +60,9 @@ body {
   padding: 20px;
 }
 
+.child-3 {
+  margin-top: auto;
+}
 /*  ---- end exercise 3 ----  */
 
 /*  ---- start exercise 4 ----  */
