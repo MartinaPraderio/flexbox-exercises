@@ -8,6 +8,8 @@ body {
 
 /*  ---- start exercise 1 ----  */
 .nav-items ul {
+  display: flex;
+  justify-content: space-between;
   max-width: 700px;
   list-style: none;
   padding: 0;
@@ -17,7 +19,7 @@ body {
 .nav-items a:link,
 .nav-items a:visited {
   background-color: #4d7298;
-  border: 2px solid #4d7298;
+  border: 2px solid #6798ca;
   border-radius: 10px;
   color: #fff;
   padding: 0.5em;
