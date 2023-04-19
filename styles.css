@@ -99,6 +99,9 @@ body {
 
 /*  ---- start exercise 5 ----  */
 .tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 800px;
 }
 
